@@ -42,8 +42,18 @@
         @apply static w-full h-[290px]
     }
 
+    .footer-background-left,
+    .footer-background-right {
+        @apply hidden
+    }
+
     .post-content-title-section {
         @apply w-full px-4
+    }
+
+    .bg-left,
+    .bg-right {
+        @apply hidden
     }
 
     .post-content-title-section h1 {

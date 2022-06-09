@@ -20,6 +20,8 @@
     .back-top {
         @apply right-[50%] bottom-0 translate-x-1/2
     }
+
+
 }
 
 @media (max-width: 427px) {
