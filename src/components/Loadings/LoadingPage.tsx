@@ -1,9 +1,10 @@
 import './index.css'
+import logoApiki from '../../assets/apikiBlogHeader.svg'
 
 export function LoadingPage() {
     return (
         <div className="loading-page">
-            <img src="/src/assets/apikiBlogHeader.svg" alt="Logo da apiki" />
+            <img src={logoApiki} alt="Logo da apiki" />
         </div>
     )
 }
