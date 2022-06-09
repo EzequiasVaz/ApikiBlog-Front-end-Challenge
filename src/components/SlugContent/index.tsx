@@ -12,8 +12,8 @@ export function SlugContent({ _embedded, content, date, excerpt, slug, title, yo
         <>
             <div className='post-content-title-section-container-fluid'>
                 <div className="container-background">
-                    <img className="bg-left" src="../../../src/assets/apikiLogoHeaderContentLeft.svg" alt="" />
-                    <img className="bg-right" src="../../../src/assets/apikiLogoHeaderContentRight.svg" alt="" />
+                    <img className="bg-left" src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/apikiLogoHeaderContentLeft.svg?token=ANAGLUZPRDHYPPC4LAO67QDCUGJZO" alt="" />
+                    <img className="bg-right" src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/apikiLogoHeaderContentRight.svg?token=ANAGLU6HKXZU3HIVBKPM3ITCUGJ24" alt="" />
 
                     <div className='post-content-title-section'>
                         {title && title.rendered ? <h1>{title.rendered}</h1> : 'Titulo não encontrado'}
@@ -51,22 +51,22 @@ export function SlugContent({ _embedded, content, date, excerpt, slug, title, yo
                     </div>
                     <div className="share-content">
                         <button className="share-button" >
-                            <img src="../../../src/assets/facebook-svg-icon.svg" alt="compartilhar post no instagram" />
+                            <img src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/facebook-svg-icon.svg?token=ANAGLUYKWWXNUWFVUI365CDCUGJ56" alt="compartilhar post no instagram" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../../src/assets/twitter-svg-icon.svg" alt="compartilhar post no twitter" />
+                            <img src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/twitter-svg-icon.svg?token=ANAGLU6I3PFE3NPEL72YGF3CUGJ7S" alt="compartilhar post no twitter" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../../src/assets/linkedin-svg-icon.svg" alt="compartilhar post no linkedin" />
+                            <img src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/linkedin-svg-icon.svg?token=ANAGLU4HL55TD4MWFHPVHA3CUGKAW" alt="compartilhar post no linkedin" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../../src/assets/telegram-svg-icon.svg" alt="compartilhar post no telegram" />
+                            <img src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/linkedin-svg-icon.svg?token=ANAGLU4HL55TD4MWFHPVHA3CUGKAW" alt="compartilhar post no telegram" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../../src/assets/gmail-svg-icon.svg" alt="compartilhar post no email" />
+                            <img src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/gmail-svg-icon.svg?token=ANAGLU6DLRPLFLLWTIRCVODCUGKC4" alt="compartilhar post no email" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../../src/assets/whatsapp-svg-icon.svg" alt="compartilhar post no whatsapp" />
+                            <img src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/whatsapp-svg-icon.svg?token=ANAGLU232YHXKVGGLRF4PUTCUGKD2" alt="compartilhar post no whatsapp" />
                         </button>
                     </div>
                 </div>
