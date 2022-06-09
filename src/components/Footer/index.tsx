@@ -1,7 +1,11 @@
 import { CaretCircleUp, FacebookLogo, GithubLogo, InstagramLogo, TwitterLogo, YoutubeLogo } from 'phosphor-react'
 import { Link } from 'react-router-dom'
+import apikiLogoFooterOutlineLeft from '../../assets/apikiLogoHeaderContentLeft.svg'
+import apikiLogoFooterOutlineRight from '../../assets/apikiLogoHeaderContentRight.svg'
+import apikiLogoFooter from '../../assets/ApikiLogoFooter.png'
 import './index.css'
 import './mediaqueries.css'
+
 
 export function Footer() {
     return (
@@ -13,12 +17,12 @@ export function Footer() {
 
                     <button className='back-top' onClick={() => { window.scrollTo(0, 0) }}><CaretCircleUp size={40} weight='thin' /></button>
 
-                    <img className='footer-background-left' src="src/assets/apikiLogoFooterOutlineLeft.svg" alt="" />
-                    <img className='footer-background-right' src="src/assets/apikiLogoFooterOutlineRight.svg" alt="" />
+                    <img className='footer-background-left' src={apikiLogoFooterOutlineLeft} alt="" />
+                    <img className='footer-background-right' src={apikiLogoFooterOutlineRight} alt="" />
 
                     <div className='about-apiki'>
                         <Link to={'/'}>
-                            <img src="https://github.com/EzequiasVaz/ApikiBlog/blob/32df3c7604bf27a844143f11c8c633f8302c79ca/src/assets/ApikiLogoFooter.png" alt="" />
+                            <img src={apikiLogoFooter} alt="" />
                         </Link>
                         <p>Empresa especializada em WordPress com três unidades de negócios.
                         </p>
