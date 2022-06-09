@@ -40,7 +40,7 @@
 
 @media (max-width: 427px) {
     .card {
-        @apply w-full h-[420px] m-0
+        @apply w-full h-[480px] m-0
     }
 
     .card-wrapper {

@@ -1,7 +1,8 @@
+import React, { Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { LoadingPage } from './components/Loadings/LoadingPage'
 import { APIContextProvider } from './contexts/apiContext'
-import Home from './pages/Home'
+const Home = React.lazy(() => import('./pages/Home'))
 import PostContent from './pages/PostContent'
 
 
@@ -11,7 +12,11 @@ export function App() {
     <APIContextProvider>
       <Routes>
         <Route path='/' element={
-          <Home />
+
+          <Suspense fallback={<LoadingPage />}>
+            <Home />
+          </Suspense>
+
         } />
         <Route path={'/:slug/'} element={
           <PostContent />

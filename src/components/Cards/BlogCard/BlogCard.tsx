@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import './blogCard.css'
 import './mediaqueries.css'
 
-export function BlogCard({ id, date, slug, title, excerpt, _embedded, content, yoast_head_json }: CardContent) {
+export function BlogCard({ id, date, slug, title, excerpt, _embedded, yoast_head_json }: CardContent) {
 
     const [avatarAuthor, setAvatarAuthor] = useState<string>()
     /*Criação dos cards com slug para para o conteúdo*/
@@ -51,7 +51,6 @@ export function BlogCard({ id, date, slug, title, excerpt, _embedded, content, y
                 </div>
             </Link>
         </div>
-
     )
 }
 

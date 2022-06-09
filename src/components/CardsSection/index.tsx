@@ -8,6 +8,7 @@ export function CardsSection() {
     const { cards } = UseAPI()
 
     return (
+
         <div className="container-content">
             <div className="cards-container">
                 {cards.map(content => {

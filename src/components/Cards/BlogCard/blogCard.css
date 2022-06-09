@@ -11,12 +11,12 @@
 
 /*link para as paginas através do card inteiro*/
 .card-wrapper {
-    @apply w-full h-full
+    @apply flex flex-col w-full h-full
 }
 
 /*imagem do cabeçalho do card*/
 .card-img-wrapper {
-    @apply w-[384px] h-[202px]
+    @apply w-full h-fit
     /*!Ver questão da sombra saindo fora da box!*/
 }
 
@@ -26,18 +26,18 @@
 
 /*conteúdo do card*/
 .card-content {
-    @apply flex flex-col p-6
+    @apply flex flex-col p-6 justify-between h-full
 }
 
 /*texto do titulo !atenção ao line-clamp*/
 
 .card-title {
-    @apply font-bold text-2xl text-cardTitle min-h-[108px] line-clamp-3
+    @apply font-bold text-2xl text-cardTitle min-h-min line-clamp-3
 }
 
 /*texto do subtitulo !atenção ao line-clamp*/
 .card-subtitle p {
-    @apply text-cardSubtitle opacity-80 font-normal text-base h-12 w-[318px] leading-6 line-clamp-2
+    @apply text-cardSubtitle opacity-80 font-normal text-base w-[318px] leading-6 line-clamp-3
 }
 
 .card-avatar-author {
@@ -65,5 +65,5 @@
 }
 
 .card-bottom {
-    @apply mt-8
+    @apply mt-0
 }

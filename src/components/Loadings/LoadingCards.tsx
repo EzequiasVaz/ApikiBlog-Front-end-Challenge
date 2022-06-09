@@ -1,6 +1,5 @@
 export function LoadingCards() {
 
-
     return (
         <>
 
@@ -9,52 +8,60 @@ export function LoadingCards() {
 
                 </div>
             </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
 
-                </div>
-            </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
-
-                </div>
-            </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
-
-                </div>
-            </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
-
-                </div>
-            </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
-
-                </div>
-            </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
-
-                </div>
-            </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
-
-                </div>
-            </div>
-            <div className="card bg-[#9CA3AF]">
-                <div className='card-wrapper bg-[#9CA3AF]'>
-
-                </div>
-            </div>
             <div className="card bg-[#9CA3AF]">
                 <div className='card-wrapper bg-[#9CA3AF]'>
 
                 </div>
             </div>
 
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
+
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
+
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
+
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
+
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
+
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
+
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
+
+            <div className="card bg-[#9CA3AF]">
+                <div className='card-wrapper bg-[#9CA3AF]'>
+
+                </div>
+            </div>
 
         </>
     )
