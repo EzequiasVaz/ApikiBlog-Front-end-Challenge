@@ -12,8 +12,8 @@ export function SlugContent({ _embedded, content, date, excerpt, slug, title, yo
         <>
             <div className='post-content-title-section-container-fluid'>
                 <div className="container-background">
-                    <img className="bg-left" src="./../../assets/apikiLogoHeaderContentLeft.svg" alt="" />
-                    <img className="bg-right" src="./../../assets/apikiLogoHeaderContentRight.svg" alt="" />
+                    <img className="bg-left" src="../../../src/assets/apikiLogoHeaderContentLeft.svg" alt="" />
+                    <img className="bg-right" src="../../../src/assets/apikiLogoHeaderContentRight.svg" alt="" />
 
                     <div className='post-content-title-section'>
                         {title && title.rendered ? <h1>{title.rendered}</h1> : 'Titulo não encontrado'}
@@ -51,22 +51,22 @@ export function SlugContent({ _embedded, content, date, excerpt, slug, title, yo
                     </div>
                     <div className="share-content">
                         <button className="share-button" >
-                            <img src="../../assets/facebook-svg-icon.svg" alt="compartilhar post no instagram" />
+                            <img src="../../../src/assets/facebook-svg-icon.svg" alt="compartilhar post no instagram" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../assets/twitter-svg-icon.svg" alt="compartilhar post no twitter" />
+                            <img src="../../../src/assets/twitter-svg-icon.svg" alt="compartilhar post no twitter" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../assets/linkedin-svg-icon.svg" alt="compartilhar post no linkedin" />
+                            <img src="../../../src/assets/linkedin-svg-icon.svg" alt="compartilhar post no linkedin" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../assets/telegram-svg-icon.svg" alt="compartilhar post no telegram" />
+                            <img src="../../../src/assets/telegram-svg-icon.svg" alt="compartilhar post no telegram" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../assets/gmail-svg-icon.svg" alt="compartilhar post no email" />
+                            <img src="../../../src/assets/gmail-svg-icon.svg" alt="compartilhar post no email" />
                         </button>
                         <button className="share-button" >
-                            <img src="../../assets/whatsapp-svg-icon.svg" alt="compartilhar post no whatsapp" />
+                            <img src="../../../src/assets/whatsapp-svg-icon.svg" alt="compartilhar post no whatsapp" />
                         </button>
                     </div>
                 </div>

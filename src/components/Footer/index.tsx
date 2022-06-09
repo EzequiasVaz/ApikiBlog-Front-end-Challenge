@@ -13,8 +13,8 @@ export function Footer() {
 
                     <button className='back-top' onClick={() => { window.scrollTo(0, 0) }}><CaretCircleUp size={40} weight='thin' /></button>
 
-                    <img className='footer-background-left' src="../../assets/apikiLogoFooterOutlineLeft.svg" alt="" />
-                    <img className='footer-background-right' src="../../assets/apikiLogoFooterOutlineRight.svg" alt="" />
+                    <img className='footer-background-left' src="../../../src/assets/apikiLogoFooterOutlineLeft.svg" alt="" />
+                    <img className='footer-background-right' src="../../../src/assets/apikiLogoFooterOutlineRight.svg" alt="" />
 
                     <div className='about-apiki'>
                         <Link to={'/'}>
