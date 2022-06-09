@@ -1,0 +1,115 @@
+@media (min-width: 1024px) and (max-width: 1215px) {
+    .post-content-title-section {
+        @apply w-[800px]
+    }
+
+    .slug-content-section {
+        @apply w-[800px] m-auto
+    }
+}
+
+@media (min-width: 672px) and (max-width: 1023px) {
+
+    .post-content-title-section {
+        @apply w-[672px]
+    }
+
+    .post-content-title-section h1 {
+        @apply w-full
+    }
+
+    .post-content-title-section img {
+        @apply h-fit
+    }
+
+    .slug-content-section {
+        @apply w-[672px] m-auto
+    }
+
+    .postedBy-audioFile-share-content {
+        @apply gap-8
+    }
+
+    .share-content {
+        @apply max-w-full gap-8
+    }
+
+}
+
+
+@media (max-width: 671px) {
+    .post-content-title-section-container-fluid {
+        @apply static w-full h-[290px]
+    }
+
+    .post-content-title-section {
+        @apply w-full px-4
+    }
+
+    .post-content-title-section h1 {
+        @apply w-full text-2xl leading-[150%]
+    }
+
+    .post-content-title-section img {
+        @apply h-fit
+    }
+
+    .slug-content-section {
+        @apply w-full pt-[18vh] px-4
+    }
+
+    .postedBy-audioFile-share-content {
+        @apply gap-8
+    }
+
+    .postedBy .author-img {
+        @apply w-8
+    }
+
+    .postedBy span,
+    .postedBy p {
+        @apply text-[11px]
+    }
+
+    .audio-file {
+        @apply w-full
+    }
+
+    .share-content {
+        @apply max-w-full gap-7
+    }
+
+    .slug-content-section .content-rendered h2 {
+        @apply text-3xl leading-[150%]
+    }
+
+}
+
+@media (max-width: 427px) {
+
+    .post-content-title-section-container-fluid {
+        @apply static w-full
+    }
+
+    .postedBy .author-img {
+        @apply w-6
+    }
+
+    .postedBy span,
+    .postedBy p {
+        @apply text-[8px]
+    }
+
+
+    .share-content {
+        @apply max-w-full gap-2
+    }
+
+    .wp-block-table {
+        @apply w-full
+    }
+
+    .wp-block-table table {
+        @apply max-w-full
+    }
+}
