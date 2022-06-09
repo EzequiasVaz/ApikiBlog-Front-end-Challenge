@@ -11,7 +11,7 @@ export function HeroSection() {
             <div className='container-fluid-hero'>
 
                 <div className="container-hero-section">
-                    <img className='logo-background' src="https://raw.githubusercontent.com/EzequiasVaz/ApikiBlog/4c299e02025bc050aa111f7b710719ccbb3af675/src/assets/logoHeroSection.svg?token=ANAGLU5TSYCV3JADXGQXD53CUGKHM" alt="apiki background" />
+                    <img className='logo-background' src="src/assets/logoHeroSection.svg" alt="apiki background" />
                     <div className='hero-section'>
                         <div className='hero-section-content'>
                             <div className='flex flex-col gap-8'>
