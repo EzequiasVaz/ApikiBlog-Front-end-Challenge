@@ -12,8 +12,8 @@ export function SlugContent({ _embedded, content, date, excerpt, slug, title, yo
         <>
             <div className='post-content-title-section-container-fluid'>
                 <div className="container-background">
-                    <img className="bg-left" src="../../assets/apikiLogoHeaderContentLeft.svg" alt="" />
-                    <img className="bg-right" src="../../assets/apikiLogoHeaderContentRight.svg" alt="" />
+                    <img className="bg-left" src="./../../assets/apikiLogoHeaderContentLeft.svg" alt="" />
+                    <img className="bg-right" src="./../../assets/apikiLogoHeaderContentRight.svg" alt="" />
 
                     <div className='post-content-title-section'>
                         {title && title.rendered ? <h1>{title.rendered}</h1> : 'Titulo não encontrado'}
