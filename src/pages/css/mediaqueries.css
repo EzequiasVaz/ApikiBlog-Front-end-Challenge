@@ -24,7 +24,7 @@
 
 @media (max-width: 671px) {
     .post-content-container {
-        @apply w-full pt-0
+        @apply flex flex-col gap-10 w-full pt-0
     }
 
     .newsletter-and-related-post-content-aside-section {

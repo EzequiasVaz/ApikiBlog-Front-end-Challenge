@@ -3,5 +3,5 @@
 }
 
 .loading-page img {
-    @apply animate-pulse w-[15vw]
+    @apply animate-pulse w-[18vw]
 }

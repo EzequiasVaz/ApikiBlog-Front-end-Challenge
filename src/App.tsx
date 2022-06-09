@@ -5,7 +5,6 @@ import { APIContextProvider } from './contexts/apiContext'
 const Home = React.lazy(() => import('./pages/Home'))
 import PostContent from './pages/PostContent'
 
-
 export function App() {
 
   return (
@@ -22,6 +21,9 @@ export function App() {
           <PostContent />
         }
         />
+
+
+
       </Routes>
     </APIContextProvider>
   )

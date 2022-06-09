@@ -1,4 +1,5 @@
 import './index.css'
+import './mediaqueries.css'
 import logoApiki from '../../assets/apikiBlogHeader.svg'
 
 export function LoadingPage() {

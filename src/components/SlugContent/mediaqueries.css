@@ -1,4 +1,8 @@
 @media (min-width: 1024px) and (max-width: 1215px) {
+    .post-content-title-section h1 {
+        @apply w-[800px]
+    }
+
     .post-content-title-section {
         @apply w-[800px]
     }
@@ -39,7 +43,11 @@
 
 @media (max-width: 671px) {
     .post-content-title-section-container-fluid {
-        @apply static w-full h-[290px]
+        @apply static w-full bg-white h-[392px]
+    }
+
+    .container-background {
+        @apply bg-backgroundHeader h-[277px]
     }
 
     .footer-background-left,
@@ -48,7 +56,7 @@
     }
 
     .post-content-title-section {
-        @apply w-full px-4
+        @apply w-full px-4 gap-8 pt-6
     }
 
     .bg-left,
@@ -57,15 +65,19 @@
     }
 
     .post-content-title-section h1 {
-        @apply w-full text-2xl leading-[150%]
+        @apply w-full text-xl leading-[150%] min-h-[90px]
     }
 
     .post-content-title-section img {
-        @apply h-fit
+        @apply w-[385px] h-[246px] object-cover
     }
 
     .slug-content-section {
-        @apply w-full pt-[18vh] px-4
+        @apply w-full px-4
+    }
+
+    .slug-content-subtitle p {
+        @apply text-lg
     }
 
     .postedBy-audioFile-share-content {
@@ -90,7 +102,7 @@
     }
 
     .slug-content-section .content-rendered h2 {
-        @apply text-3xl leading-[150%]
+        @apply text-2xl leading-[150%]
     }
 
 }
@@ -123,3 +135,79 @@
         @apply max-w-full
     }
 }
+
+
+/*Telas muito pequenas*/
+
+@media (max-width: 359px) {
+
+    .post-content-title-section-container-fluid {
+        @apply static w-full bg-white h-[300px]
+    }
+
+    .container-background {
+        @apply bg-backgroundHeader h-[222px]
+    }
+
+    .footer-background-left,
+    .footer-background-right {
+        @apply hidden
+    }
+
+    .post-content-title-section {
+        @apply w-full px-4 gap-8 pt-6
+    }
+
+    .bg-left,
+    .bg-right {
+        @apply hidden
+    }
+
+    .post-content-title-section h1 {
+        @apply w-full text-lg leading-[150%] min-h-[90px]
+    }
+
+    .post-content-title-section img {
+        @apply w-[288px] max-h-[151px] object-cover
+    }
+
+    .slug-content-section {
+        @apply w-full px-4
+    }
+
+    .slug-content-subtitle p {
+        @apply text-[17px]
+    }
+
+    .postedBy-audioFile-share-content {
+        @apply gap-6
+    }
+
+    .postedBy {
+        @apply flex-col gap-6
+    }
+
+    .postedBy .author-img {
+        @apply w-8
+    }
+
+    .postedBy span,
+    .postedBy p {
+        @apply text-[12px]
+    }
+
+    .audio-file {
+        @apply w-full
+    }
+
+    .share-content {
+        @apply max-w-full gap-7
+    }
+
+    .slug-content-section .content-rendered h2 {
+        @apply text-[20px] leading-[150%]
+    }
+}
+
+
+@media (max-width: 359px) {}

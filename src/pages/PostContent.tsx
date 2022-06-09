@@ -11,7 +11,6 @@ import { CardContent } from '../interfaces/cardContent'
 import { api } from '../utils/apiApiki'
 import './css/postContent.css'
 import './css/mediaqueries.css'
-import PageNotFound from './PageNotFound'
 
 
 export default function PostContent() {

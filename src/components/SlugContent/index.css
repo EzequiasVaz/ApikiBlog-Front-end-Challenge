@@ -19,11 +19,11 @@
 }
 
 .post-content-title-section h1 {
-    @apply text-white text-[40px] leading-[130%] font-bold w-[800px] text-center z-50
+    @apply text-white text-[40px] leading-[130%] font-bold w-[1216px] text-center z-50
 }
 
 .post-content-title-section img {
-    @apply w-[854px] h-[480px] bg-cover z-50
+    @apply w-[854px] h-[480px] object-cover z-50
 }
 
 .slug-content-section {
