@@ -18,7 +18,7 @@ export function Footer() {
 
                     <div className='about-apiki'>
                         <Link to={'/'}>
-                            <img src="src/assets/ApikiLogoFooter.png" alt="" />
+                            <img src="https://github.com/EzequiasVaz/ApikiBlog/blob/32df3c7604bf27a844143f11c8c633f8302c79ca/src/assets/ApikiLogoFooter.png" alt="" />
                         </Link>
                         <p>Empresa especializada em WordPress com três unidades de negócios.
                         </p>
