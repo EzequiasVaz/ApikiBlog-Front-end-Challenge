@@ -11,7 +11,7 @@ import TwitterIcon from '../../assets/twitter-svg-icon.svg'
 import GmailIcon from '../../assets/gmail-svg-icon.svg'
 import LinkedinIcon from '../../assets/linkedin-svg-icon.svg'
 import WhatsappIcon from '../../assets/whatsapp-svg-icon.svg'
-import TelegramIcon from '../../assets/Telegram-svg-icon.svg'
+import TelegramIcon from '../../assets/telegram-svg-icon.svg'
 import './index.css'
 import './mediaqueries.css'
 
