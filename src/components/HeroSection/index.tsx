@@ -1,6 +1,7 @@
 import { FacebookLogo, GithubLogo, InstagramLogo, TwitterLogo, YoutubeLogo } from 'phosphor-react'
 import { Link } from 'react-router-dom'
 import { NewsLetter } from '../Newsletter'
+import LogoHeroSection from '../../assets/logoHeroSection.svg'
 import './index.css'
 import './mediaqueries.css'
 
@@ -11,7 +12,7 @@ export function HeroSection() {
             <div className='container-fluid-hero'>
 
                 <div className="container-hero-section">
-                    <img className='logo-background' src="src/assets/logoHeroSection.svg" alt="apiki background" />
+                    <img className='logo-background' src={LogoHeroSection} alt="apiki background" />
                     <div className='hero-section'>
                         <div className='hero-section-content'>
                             <div className='flex flex-col gap-8'>
