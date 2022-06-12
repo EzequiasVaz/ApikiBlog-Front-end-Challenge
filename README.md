@@ -1,4 +1,4 @@
-## Projeto realizado no front-end challenger da Apiki
+## Projeto realizado no front-end challenge da Apiki
 
 <p>React, Typescript e TailwindCSS utilizados!<p>
 
